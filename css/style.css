@@ -1,0 +1,95 @@
+body {
+  font-family: sans-serif;
+}
+
+.general {
+  width: 605px;
+  height: 72px;
+  margin: 17px auto;
+  border-radius: 4px;
+  padding: 15px 25px;
+  box-shadow: 3px 3px #DFDFD8;
+  box-sizing: border-box;
+  border-width: 1px 2px 1px 2px;
+  border-style: solid;
+}
+
+.success {
+  background-color: #d4fecc;
+  border-color: #74906A #A7CCA1;
+}
+
+.error {
+  background-color: #FFD3D4;
+  border-color: #4B2927 #AE9D9A;
+}
+
+.info {
+  background-color: #C0EAFA;
+  border-color: #43788B #8ABCCC;
+}
+
+.warning {
+  background-color: #FDFDCB;
+  border-color: #ACAB81 #D7D7A4;  
+}
+
+.print {
+  background-color: #C8D9E3;
+  border-color: #7A8389 #96A3AD;  
+}
+
+.buy {
+  background-color: #C2E1E3;
+  border-color: #A3C0C2 #ACB8B9;  
+}
+
+img {
+  margin-top: 8px;
+  width: 25px;
+  height: 25px;
+  float: left;
+  
+}
+
+.headline {
+  margin-bottom: 6px;
+  margin-left: 50px;
+  font-size: 14px;
+  font-weight: bold;
+  text-transform: capitalize; 
+ 
+}
+
+/* headlines colors */
+.h-success {
+  color: #528959;
+}
+
+.h-error {
+  color: #6F2617;
+}
+
+.h-info {
+  color: #1B7DAA;
+}
+
+.h-warning {
+  color: #BFB86A;
+}
+
+.h-print {
+  color: #474F61;
+}
+
+.h-buy {
+  color: #618791;
+}
+
+.text {
+  font-size: 9px;
+  line-height: 12px;
+  margin-left: 50px;
+  text-shadow: 1px 1px 1px #bbb;
+  font-weight: 400;
+}
